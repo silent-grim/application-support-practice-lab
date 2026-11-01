@@ -13,6 +13,7 @@ This repository documents simulated exercises, investigation procedures, technic
 ## Learning Roadmap
 
 ### 01. Incident Triage & Outage Investigation
+
 **Status: Completed**
 
 - Understand incident identification and impact assessment.
@@ -29,6 +30,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Files:** `01-incident-triage/`
 
 ### 02. IT Service Management (ITSM)
+
 **Status: Not Started**
 
 - Incident Management
@@ -43,6 +45,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Simulate ticket prioritisation, incident escalation, problem investigation and service request handling.
 
 ### 03. SaaS & Web Application Support
+
 **Status: Not Started**
 
 - SaaS application fundamentals
@@ -56,6 +59,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Investigate simulated web portal access and functionality problems.
 
 ### 04. Identity & Access Management (IAM)
+
 **Status: Not Started**
 
 - Authentication vs authorisation
@@ -69,6 +73,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Investigate simulated login failures, access-denied errors and permission issues.
 
 ### 05. HTTP, REST APIs & Integration Troubleshooting
+
 **Status: Not Started**
 
 - HTTP and HTTPS
@@ -83,19 +88,33 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Investigate simulated API errors and failed application integrations.
 
 ### 06. Networking & Connectivity
-**Status: Not Started**
 
-- IP addressing
-- DNS and DHCP
-- TCP/IP fundamentals
+**Status: Theory Completed — Practical Lab Pending**
+
+**Topics covered:**
+
+- TCP/IP fundamentals and networking layers
+- OSI model and network encapsulation
+- IP addressing and private IP ranges
+- DNS resolution and troubleshooting
+- Default gateway and routing fundamentals
+- TCP vs UDP
 - Common network ports and protocols
-- Connectivity troubleshooting
-- Firewall and connectivity basics
-- Client-to-server communication
+- TCP three-way handshake
+- TCP connectivity testing
+- TLS handshake and certificate validation
+- HTTP/HTTPS communication lifecycle
+- HTTP methods and status codes
+- Gateway and upstream connectivity troubleshooting
 
-**Practical exercise:** Investigate simulated DNS resolution and network connectivity problems.
+**Practical exercise:**
+
+Perform Windows-based IP configuration, DNS resolution, routing and TCP connectivity checks. Investigate simulated network and application connectivity failures.
+
+**Files:** `06-networking/`
 
 ### 07. Application Logs, Monitoring & Alert Management
+
 **Status: Not Started**
 
 - Application log fundamentals
@@ -110,6 +129,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Investigate simulated application errors, performance degradation and production alerts.
 
 ### 08. Database & Scheduled Job Troubleshooting
+
 **Status: Not Started**
 
 - SQL fundamentals
@@ -124,6 +144,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Investigate simulated database connection failures and failed scheduled jobs.
 
 ### 09. Vendor & Third-Party Management
+
 **Status: Not Started**
 
 - Raising technically complete vendor tickets
@@ -138,6 +159,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Prepare a simulated vendor escalation ticket, assess a sample release update and document fix validation.
 
 ### 10. Patch Management
+
 **Status: Not Started — Dedicated Module**
 
 - Patch management fundamentals
@@ -154,6 +176,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Create a simulated patch management plan, assess a proposed update, document deployment checks and prepare a rollback procedure.
 
 ### 11. SSL/TLS & Certificate Lifecycle
+
 **Status: Not Started**
 
 - SSL and TLS fundamentals
@@ -167,6 +190,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Investigate simulated certificate expiry and HTTPS connection errors.
 
 ### 12. Windows & Linux Operations
+
 **Status: Not Started**
 
 - Windows services and processes
@@ -180,6 +204,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Investigate simulated service failures and resource-related problems.
 
 ### 13. Configuration, CMDB & Knowledge Management
+
 **Status: Not Started**
 
 - Configuration Management
@@ -193,6 +218,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Create a sample application configuration record, dependency map and troubleshooting runbook.
 
 ### 14. Security, Risk & Application Lifecycle
+
 **Status: Not Started**
 
 - Application security fundamentals
@@ -208,6 +234,7 @@ This repository documents simulated exercises, investigation procedures, technic
 **Practical exercise:** Prepare a simulated application security and operational risk assessment.
 
 ### 15. Operational Tools & CI/CD Fundamentals
+
 **Status: Not Started**
 
 - ITSM and ticketing systems
@@ -221,24 +248,22 @@ This repository documents simulated exercises, investigation procedures, technic
 
 **Practical exercise:** Document the purpose and basic workflows of common application support tools.
 
----
-
 ## Troubleshooting Methodology
 
 Use the following approach when investigating an application issue:
 
 **Size → Spot → Search → Shift → Solve → Secure**
 
-1. Size: Assess the impact and scope.
-2. Spot: Identify the symptoms.
-3. Search: Collect evidence and investigate.
-4. Shift: Check recent changes and releases.
-5. Solve: Coordinate resolution or escalate.
-6. Secure: Verify recovery and document the outcome.
+- **Size:** Assess the impact and scope.
+- **Spot:** Identify the symptoms.
+- **Search:** Collect evidence and investigate.
+- **Shift:** Check recent changes and releases.
+- **Solve:** Coordinate resolution or escalate.
+- **Secure:** Verify recovery and document the outcome.
 
 ## Repository Structure
 
-```text
+```
 application-support-practice-lab/
 │
 ├── README.md
@@ -251,6 +276,7 @@ application-support-practice-lab/
 ├── 04-identity-access-management/
 ├── 05-http-rest-api/
 ├── 06-networking/
+│   └── README.md
 ├── 07-logs-monitoring/
 ├── 08-database-scheduled-jobs/
 ├── 09-vendor-management/
@@ -280,14 +306,14 @@ Each completed exercise should include:
 
 The roadmap is updated as exercises are completed.
 
-| Area | Status |
+| Area  | Status |
 |---|---|
 | Incident Triage & Outage Investigation | Completed |
 | IT Service Management | Not Started |
 | SaaS & Web Application Support | Not Started |
 | Identity & Access Management | Not Started |
 | HTTP, REST APIs & Integrations | Not Started |
-| Networking & Connectivity | Not Started |
+| Networking & Connectivity | Theory Completed — Practical Lab Pending |
 | Logs, Monitoring & Alerts | Not Started |
 | Database & Scheduled Jobs | Not Started |
 | Vendor Management | Not Started |
@@ -302,4 +328,4 @@ The roadmap is updated as exercises are completed.
 
 This repository follows a practical, scenario-based learning approach. Each topic is studied through technical fundamentals, simulated incidents, troubleshooting exercises and documented findings.
 
-The objective is to develop a structured understanding of application operations, incident investigation, service management and technical support workflows.
+Modules are marked complete only after their relevant learning objectives and practical exercises have been validated.
